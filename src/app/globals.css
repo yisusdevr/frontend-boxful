@@ -1,0 +1,66 @@
+@import 'antd/dist/reset.css';
+
+/* ... tus estilos CSS globales existentes (si tienes) ... */
+:root {
+  --background: #f3f5f9;
+  --foreground: #171717;
+  --font-albert-sans: 'Albert Sans', sans-serif;
+}
+
+@media (prefers-color-scheme: white) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-albert-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.ant-form-item-label > label,
+.ant-input,
+.ant-card,
+.ant-form {
+  font-family: var(--font-albert-sans) !important;
+}
+
+.ant-btn {
+  font-family: var(--font-albert-sans) !important;
+  height: 58px;
+  width: 180px;
+  background: #2F5CDF;
+  
+}
+
+/* src/components/PhoneNumberSelector.module.css (Archivo CSS Module opcional para estilos específicos) */
+

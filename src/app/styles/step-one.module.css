@@ -1,0 +1,91 @@
+.stepOneContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    min-height: 60vh;
+    padding-left: 192px;
+    padding-right: '20.5%'
+}
+
+.title {
+    margin-bottom: 16px;
+    color: #4D5568;
+    font-weight: 600;
+    font-family: var(--font-albert-sans);
+}
+
+.subtitle {
+    margin-bottom: 32px;
+    text-align: left;
+    max-width: 700px;
+    color: #7682A0;
+    font-family: var(--font-albert-sans);
+}
+
+.cardContainer {
+    width: 100%;
+    max-width: 900px;
+}
+
+.spaceContainer {
+    width: 100%;
+}
+
+.spanContainer {
+    padding: 4px 11px;
+    border: 1px solid #d9d9d9;
+    border-right: 0;
+    border-radius: 2px 0 0 2px;
+    background-color: #fafafa;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    height: 50px;
+    font-family: var(--font-albert-sans);
+}
+
+.inputDestiny {
+    height: 50px;
+    width: 29vw;
+    font-family: var(--font-albert-sans);
+}
+
+.sendButton {
+    font-family: var(--font-albert-sans);
+    height: 50px;
+    font-size: 16px;
+    padding: 0 32px;
+    background: #1677ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.formCard {
+    width: 100%;
+    max-width: 900px;
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.formItem {
+    margin-bottom: 24px;
+}
+
+.icon {
+    color: gray;
+    font-size: 28px;
+    margin-right: 8px;
+}

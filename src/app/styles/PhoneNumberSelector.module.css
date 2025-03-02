@@ -1,0 +1,17 @@
+.phoneSelectorContainer {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+  }
+  
+  .countrySelect {
+    /* Puedes añadir estilos específicos para el Select aquí si lo deseas */
+    height: 50px;
+    
+  }
+  
+  .phoneInput {
+   width: 240%;
+   height: 50px;
+
+  }
+  

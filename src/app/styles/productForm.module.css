@@ -1,0 +1,94 @@
+.inputForm {
+    color: gray;
+    font-family: var(--font-albert-sans);
+}
+
+.spacesContainer {
+    width: 100%;
+}
+
+
+
+.inputInLine {
+    width: 33.33%;
+}
+
+.inputItem {
+    height: 50px;
+}
+
+.containInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionInput {
+    height: 50px;
+    width: 30vw;
+}
+
+.divButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.addButton {
+    width: auto;
+    color: #7682A0;
+    background: #ECEEF1;
+    border-color: #7682A0;
+}
+
+.bultosLabel {
+    color: gray;
+    font-family: var(--font-albert-sans);
+}
+
+.divProducts {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.divContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer {
+    height: 50px;
+    width: 26vw;
+}
+
+.inputProducts {
+    height: 50px;
+}
+
+.deleteButton {
+    font-size: 20px;
+    color: #FF4D4F;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+}
+.backButton {
+    width: 150px;
+    color: #7682A0;
+    background: #ECEEF1;
+    border-color: #7682A0;
+}
+
+.sendButton {
+    width: 150px;
+    color: white;
+    background: #1677ff;
+    border: none;
+}
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    width: 100%;
+    padding-top: 94px;
+}

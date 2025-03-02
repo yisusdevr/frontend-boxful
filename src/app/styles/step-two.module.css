@@ -1,0 +1,44 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    min-height: 60vh;
+    padding-left: 20.5%;
+    padding-right: 20.5%;
+}
+
+.mainTitle {
+    margin-bottom: 16px;
+    color: #4D5568;
+    font-weight: 600;
+}
+
+.mainSubtitle {
+    margin-bottom: 32px;
+    text-align: left;
+    max-width: 700px;
+    color: #7682A0;
+}
+
+    .buttonsContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+        width: 100%;
+        padding-top: 94px;
+    }
+
+.backButton {
+    width: 150px;
+    color: #7682A0;
+    background: #ECEEF1;
+    border-color: #7682A0;
+}
+
+.sendButton {
+    width: 150px;
+    color: white;
+    background: #1677ff;
+    border: none;
+}
